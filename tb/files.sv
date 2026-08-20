@@ -1,0 +1,15 @@
+package tb_pkg;
+  `include "Parameter.v"
+  `include "clk_gen.sv"
+  `include "rst_gen.sv"
+  `include "pc_queue_test.sv"
+  `include "rst_test.sv"
+  `include "Data_Memory_test.sv"
+  `include "Control_unit_test.sv"
+  `include "alu_test.sv"
+  `include "alu_control_test.sv"
+  `include "reg_file.sv"
+  `include "inst_mem.sv"
+  `include "data_path.sv"
+  `include "run_block.sv"
+endpackage
